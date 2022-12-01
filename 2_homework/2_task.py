@@ -5,3 +5,7 @@
 
 #     - пусть N = 4, тогда [ 1, 2, 6, 24 ] (1, 1*2, 1*2*3, 1*2*3*4)
 number = int(input("Введите число N: "))
+answer = [1]
+for i in range(1,number):
+    answer.append(answer[i-1]*(i+1))
+print(answer)
