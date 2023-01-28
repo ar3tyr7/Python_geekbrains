@@ -11,3 +11,17 @@ elif a > 5 and a<8:
     print('да')
 else:
     print('Введены некорректные данные')
+
+
+ # Final project
+# text= 'A/5 21171'
+# def lucky (ticket):
+#     i=0
+#     while i< len(ticket):
+#         if ticket[i] == " ":
+#             ticket = ticket[i+1:]
+#         i+=1
+#     return ticket
+
+# answer = lucky(text)
+# print(answer)
